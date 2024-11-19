@@ -1,12 +1,12 @@
 package Problem1;
 
 public class Teacher extends Person {
-    private String subject; // e.g., "Computer Science", "Chemistry"
+    private String subject; // Example: "Computer Science", "Chemistry"
     private double salary;  // Annual salary
 
     // Constructor
     public Teacher(String name, int age, String gender, String subject, double salary) {
-        // Use the super class’ constructor
+        // Use the super class’s constructor
         super(name, age, gender);
 
         // Initialize new properties

@@ -1,8 +1,8 @@
 package Problem1;
 
 public class CollegeStudent extends Student {
-    private String major; // e.g., "Electrical Engineering", "Communications"
-    private int year;     // e.g., 1 = FROSH, 2 = SOPH, etc.
+    private String major; // Example: "Electrical Engineering", "Communications"
+    private int year;     // Example: 1 = FROSH, 2 = SOPH, etc.
 
     // Constructor
     public CollegeStudent(String name, int age, String gender, String idNum, double gpa, int year, String major) {
