@@ -4,7 +4,7 @@ public class Point {
     private float x = 0.0f;
     private float y = 0.0f;
 
-    // Default constructor
+    // Default Constructor
     public Point() {}
 
     // Constructor with parameters
@@ -12,7 +12,7 @@ public class Point {
         this.x = x;
         this.y = y;
     }
-
+    // Functions
     public float getX() {
         return x;
     }
