@@ -4,7 +4,7 @@ public class MovablePoint extends Point {
     private float xSpeed = 0.0f;
     private float ySpeed = 0.0f;
 
-    // Default constructor
+    // Default Constructor
     public MovablePoint() {}
 
     // Constructor with parameters
@@ -19,7 +19,7 @@ public class MovablePoint extends Point {
         this.xSpeed = xSpeed;
         this.ySpeed = ySpeed;
     }
-
+    // Functions
     public float getXSpeed() {
         return xSpeed;
     }
