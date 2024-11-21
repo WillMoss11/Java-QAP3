@@ -12,7 +12,7 @@ public abstract class Shape {
     public abstract double getArea();
     public abstract double getPerimeter();
 
-    // Getter for name
+    // Getter
     public String getName() {
         return name;
     }
